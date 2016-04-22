@@ -1,0 +1,62 @@
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+   .navbar-collapse.collapse {
+       display: none !important;
+   }
+
+   .navbar-toggle { display:inline-block; float:right; }
+   .navbar-header { width:100%; }
+   .rowText { padding-right:17px; }
+
+}
+/******************** TABLET *********************/
+
+@media only screen and (max-width:990px) { 
+	.serviceArrow { display:none; }
+	.rowText { padding-right:17px; }
+
+}
+
+@media only screen and (max-width:1200px) { 
+
+	.userButtons { display:none; } 
+	.nav.navbar-nav { float:left; }
+	
+	
+}
+/******************** MOBILE *********************/
+
+@media only screen and (max-width: 767px) {
+
+	.socialIcons .topBarText { display:inline; }
+
+	.nav.navbar-nav { width:100%; margin-left:0px; }
+	.nav.navbar-nav li { border-bottom:1px solid #d4d4d4; }
+	.nav.navbar-nav li a { padding-top:15px; padding-bottom:15px; }
+	.nav.navbar-nav .current { box-shadow: inset 4px 0px 0px #81be32; }
+
+}
+
+@media only screen and (max-width: 730px) {
+
+	.nav.navbar-nav.userButtons { margin-left:10px; margin-top:-10px; }
+}
+
+@media only screen and (max-width: 589px) {
+
+	.subHeader.page h1 { font-size:29px; margin-right:20px; margin-top:10px; line-height:50px; }
+
+
+	/** SUBHEADER HOME **/
+	
+	.f
+
+@media only screen and (max-width: 500px) {
+
+	.subHeader.home { margin-top:141px; }
+	.subHeader.page { margin-top:141px; }
+	.bottomBar p { text-align:center; width:100%; }
+	.bottomBar .socialIcons { border-top:none; text-align:center; padding-bottom:7px; width:100%; }
+}
+
+@media only screen and (max-width: 450px) {
+
